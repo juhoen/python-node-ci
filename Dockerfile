@@ -14,5 +14,6 @@ RUN apk add nodejs-npm
 
 # Check versions
 RUN python -V
+RUN chromedriver -v
 RUN node -v
 RUN npm -v
