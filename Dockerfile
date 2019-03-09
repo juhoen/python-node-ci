@@ -10,6 +10,7 @@ RUN apk add chromium chromium-chromedriver
 
 # Install Node
 RUN apk add nodejs
+RUN apk add nodejs-npm
 
 # Check versions
 RUN python -V
